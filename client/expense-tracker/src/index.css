@@ -1,0 +1,63 @@
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+.container {
+	max-width: 600px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+	text-align: center;
+	color: #333;
+}
+
+.balance {
+	margin-bottom: 20px;
+}
+
+.balance h2 {
+	color: #2ecc71;
+}
+
+.transactions ul {
+	list-style: none;
+	padding: 0;
+}
+
+.transactions li {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #ecf0f1;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.add-expense label,
+.add-expense input,
+.add-expense button {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.add-expense button {
+	background-color: #3498db;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.add-expense button:hover {
+	background-color: #2980b9;
+}
